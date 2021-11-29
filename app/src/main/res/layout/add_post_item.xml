@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/personalAccountIV"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/personalAccountIV"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account name"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/more_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/personalPostIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_heart"
+            android:layout_margin="8dp"/>
+
+        <ImageView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic__share_post"
+            android:layout_toEndOf="@id/like"
+            android:layout_margin="8dp"/>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/share"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic__share_post"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:layout_toEndOf="@id/comment" />-->
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_save"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_of_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="125 likes"/>
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_hetvishah__"
+        android:textColor="@color/design_default_color_primary_dark"/>
+
+    <com.hendraanggrian.appcompat.widget.SocialTextView
+        android:id="@+id/captionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is caption"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/no_of_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All 15 comments"/>
+
+</LinearLayout>

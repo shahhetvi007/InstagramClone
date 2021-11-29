@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/settings"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_settings"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/archive"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/archive"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_archive"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/yourActivity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/yourActivity"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_your_activity"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/qrCode"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/qrCode"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_qr_code_scanner"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/saved"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/saved"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_save"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/closeFriends"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/closeFriends"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_close_friends"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/interests"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/interests"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_interests"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/covid19"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/covid19"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_covid_19"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"/>
+
+</LinearLayout>

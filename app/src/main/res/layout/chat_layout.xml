@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chatProfileIV"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_weight="0.8"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="10dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.4"
+        android:orientation="vertical"
+        android:id="@+id/chatLL"
+        android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yash Shah"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/messageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message text view"
+            android:textColor="@color/black"
+           />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cameraIV"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.8"
+        android:src="@drawable/ic_camera"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

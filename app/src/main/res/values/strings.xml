@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Instagram Clone</string>
+
+    <string name="instagram">Instagram</string>
+    <string name="messageRequests">Message Requests</string>
+    <string name="home">Home</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="thisWeek">This Week</string>
+    <string name="thisMonth">This Month</string>
+    <string name="suggestions">Suggestions For You</string>
+    <string name="search">Search</string>
+    <string name="reels">Reels</string>
+    <string name="liked">Liked</string>
+    <string name="profile">Profile</string>
+    <string name="posts">Posts</string>
+    <string name="tagged">Tagged</string>
+    <string name="activity">Activity</string>
+    <string name="addPost">Add Post</string>
+    <string name="followReq">Follow Request</string>
+    <string name="appOrIgnReq">Approve or ignore requests</string>
+    <string name="dm">DM</string>
+    <string name="bio">Clumsy  Xaverite Iron-man Clumsy</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="confirm">Conf..</string>
+    <string name="delete">Delete</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="exLikedCommented">known__stranger__ mentioned you in a comment: @_jaynashah__ </string>
+    <string name="exRequest">_jaynashah__ requested to follow you.</string>
+
+    <!--    bottom sheet-->
+    <string name="settings">Settings</string>
+    <string name="archive">Archive</string>
+    <string name="yourActivity">Your Activity</string>
+    <string name="qrCode">QR Code</string>
+    <string name="saved">Saved</string>
+    <string name="closeFriends">Close Friends</string>
+    <string name="interests">Manage Interests</string>
+    <string name="covid19">COVID-19 Information Center</string>
+
+    <!--    settings activity-->
+    <string name="followAndInvite">Follow and Invite Friends</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy">Privacy</string>
+    <string name="security">Security</string>
+    <string name="ads">Ads</string>
+    <string name="account">Account</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="theme">Theme</string>
+
+    <!--    add post bottom sheet  -->
+    <string name="post">Post</string>
+    <string name="reel">Reel</string>
+    <string name="story">Story</string>
+    <string name="storyHighlight">Story Highlight</string>
+    <string name="igtv">IGTV Video</string>
+    <string name="guide">Guide</string>
+    <string name="create">Create</string>
+
+    <string name="share">Share</string>
+    <string name="link">Link</string>
+    <string name="report">Report...</string>
+    <string name="hide">Hide</string>
+    <string name="unfollow">Unfollow</string>
+
+    <string name="createRoom">Create a Room</string>
+    <string name="createRoomText">Send a link to video chat with friends</string>
+    <string name="callFriends">Call Friends</string>
+
+    <string name="msgReqText">Messages aren\'t marked as seen until you accept them.</string>
+    <string name="hiddenReq">Hidden Requests</string>
+    <string name="noMsgReq">No message Request</string>
+    <string name="noMsgReqText">You don\'t have any message requests.</string>
+
+    <string name="changeProfilePhoto">Change Profile Photo</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="website">Website</string>
+    <string name="bioet">Bio</string>
+    <string name="switchToProfAcc">Switch to Professional Account</string>
+    <string name="personalInfoSettings">Personal Information Settings</string>
+
+    <string name="nameOrEmail">Username or email address</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="notAUser">New to Instagram? Sign Up</string>
+    <string name="alreadyAUser">Already a User? Sign In</string>
+    <string name="email">Email</string>
+    <string name="signUp">Sign Up</string>
+    <string name="newPost">New post</string>
+
+</resources>

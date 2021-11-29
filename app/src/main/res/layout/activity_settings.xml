@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profile.SettingsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/settingsToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:title="@string/settings"
+                android:background="@color/white"
+                app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+                app:titleTextColor="@color/black" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="10dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey1"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/followAndInvite"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/followAndInvite"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_follow"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/notifications"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/notifications"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_notifications"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/privacy"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_privacy"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/security"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/security"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_security"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/ads"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_security"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/account"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_account"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/help"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_help"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/about"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_about"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+    <TextView
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/theme"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_theme"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"/>
+
+</LinearLayout>
